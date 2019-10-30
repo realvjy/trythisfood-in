@@ -7,36 +7,31 @@ class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
-    let header
+    let header = (
+      <>
+      <div className="announce-wrapper ph">
+        <div className="container">
+          <div className="an-details">
 
-    if (location.pathname === rootPath) {
-      header = (
-        <h1>
-          <Link
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h1>
-      )
-    } else {
-      header = (
-        <h3>
-          <Link
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h3>
-      )
-    }
+          </div>
+        </div>
+      </div>
+      </>
+    )
     return (
       <div>
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
-          {new Date().getFullYear()}, Makers
-          {` `} vijay verma & aakarshana
+        <footer className="container">
+          <div className="about">
+            <div className="logo"><a hre="">  <img src="/logo.svg" className="logo" /></a></div>
+            <div className="menu">
+              <a href="">About</a> <a href="">Help us</a> 
+            </div>
+          </div>
+          <div className="credit">
+            Makers <a href="https://twitter.com/realvjy">vijay verma</a> & <a href="https://twitter.com/_aakarshna">Aakarshana</a>
+          </div>
         </footer>
       </div>
     )

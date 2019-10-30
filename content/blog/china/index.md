@@ -1,6 +1,7 @@
 ---
 title: China
 date: "2019-05-06T23:46:37.121Z"
+image: ./china.png
 ---
 
 Wow! I love blogging so much already.
