@@ -1,6 +1,6 @@
 ---
 title: India
-date: "2019-05-01T22:12:03.284Z"
+date: "2019-10-01"
 description: "India"
 image: ./india.png
 ---

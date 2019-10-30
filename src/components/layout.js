@@ -24,13 +24,13 @@ class Layout extends React.Component {
         <main>{children}</main>
         <footer className="container">
           <div className="about">
-            <div className="logo"><a hre="">  <img src="/logo.svg" className="logo" /></a></div>
+            <div className="logo"><a href="">  <img src="/logo.svg" className="logo" /></a></div>
             <div className="menu">
-              <a href="">About</a> <a href="">Help us</a> 
+              <a href="">About</a> • <a href="">Help us</a>
             </div>
           </div>
           <div className="credit">
-            Makers <a href="https://twitter.com/realvjy">vijay verma</a> & <a href="https://twitter.com/_aakarshna">Aakarshana</a>
+            <div className="maker">Makers</div> <div className="make-list"><a href="https://twitter.com/realvjy">vijay verma</a> & <a href="https://twitter.com/_aakarshna">Aakarshana</a></div>
           </div>
         </footer>
       </div>

@@ -1,7 +1,7 @@
 ---
-title: China
-date: "2019-10-03"
-image: ./china.png
+title: New York
+date: "2019-10-16"
+image: ./new-york.png
 ---
 
 Wow! I love blogging so much already.
