@@ -49,69 +49,7 @@ class BlogPostTemplate extends React.Component {
           </div>
         </section>
         <section className="list_section">
-          <div className="container">
-
-          <article className="article-wrap">
-            <div className="img-box">
-              <img src="/naan.png" className="country-img"/>
-            </div>
-
-            <div className="list-txt">
-              <div className="txt-desc">
-                <h2>Chicken Biryani</h2>
-                <ol>
-                  <li>VEG</li>
-                  <li>NON-VEG</li>
-                </ol>
-                <p>Ever heard of soul-satisfying food? Biryani tops the list. It is a delicious savory rice dish that is loaded with spicy marinated chicken/lamb and colorful saffron rice. Best accompanied with dahi chutney or mirchi ka salan. A slow-cooked, delectable chicken biryani full of aromatic flavours and masala layers, cooked in a Handi which is a round pot like vessel, with the neck narrower than the base, should be on every foodie's list. Slurrrrrp!!</p>
-              </div>
-              <div className="tags">
-                <span>Can eat in <strong>Lunch, Dinner</strong></span>
-              </div>
-            </div>
-          </article>
-
-          <article className="article-wrap">
-            <div className="img-box">
-              <img src="/naan.png" className="country-img"/>
-            </div>
-
-            <div className="list-txt">
-              <div className="txt-desc">
-                <h2>Chicken Biryani</h2>
-                <div className="food-type">
-                <span className="veg"><img src="/food-icon.svg" /> VEG</span> <span className="n-veg"><img src="/food-icon.svg" /> NON-VEG</span>
-                </div>
-                <p>Ever heard of soul-satisfying food? Biryani tops the list. It is a delicious savory rice dish that is loaded with spicy marinated chicken/lamb and colorful saffron rice. Best accompanied with dahi chutney or mirchi ka salan. A slow-cooked, delectable chicken biryani full of aromatic flavours and masala layers, cooked in a Handi which is a round pot like vessel, with the neck narrower than the base, should be on every foodie's list. Slurrrrrp!!</p>
-              </div>
-              <div className="tags">
-                <span>Can eat in <strong>Lunch, Dinner</strong></span>
-              </div>
-            </div>
-          </article>
-
-          <article className="article-wrap">
-            <div className="img-box">
-              <img src="/naan.png" className="country-img"/>
-            </div>
-
-            <div className="list-txt">
-              <div className="txt-desc">
-                <h2>Chicken Biryani</h2>
-                <ol>
-                  <li>VEG</li>
-                  <li>NON-VEG</li>
-                </ol>
-                <p>Ever heard of soul-satisfying food? Biryani tops the list. It is a delicious savory rice dish that is loaded with spicy marinated chicken/lamb and colorful saffron rice. Best accompanied with dahi chutney or mirchi ka salan. A slow-cooked, delectable chicken biryani full of aromatic flavours and masala layers, cooked in a Handi which is a round pot like vessel, with the neck narrower than the base, should be on every foodie's list. Slurrrrrp!!</p>
-              </div>
-              <div className="tags">
-                <span>Can eat in : <strong>Lunch ·  Dinner</strong></span>
-              </div>
-            </div>
-          </article>
-
-
-
+          <div dangerouslySetInnerHTML={{ __html: post.excerpt }} className="container">
           </div>
         </section>
       </Layout>
@@ -131,7 +69,7 @@ export const pageQuery = graphql`
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
-      excerpt(pruneLength: 160)
+      excerpt(format: HTML)
       html
       fields {
         slug

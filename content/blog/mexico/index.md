@@ -2,6 +2,7 @@
 title: Mexico
 date: "2019-10-04"
 image: ./mexico.png
+description: "Mexican food has some of the most well-known and loved dishes in the world. Mexican cuisine varies by region due to local climate, geography and ethnic differences among the indigenous inhabitants. Here's what you must try..."
 ---
 
 Wow! I love blogging so much already.

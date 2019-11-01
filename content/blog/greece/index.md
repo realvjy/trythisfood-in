@@ -2,6 +2,7 @@
 title: Greece
 date: "2019-10-07"
 image: ./greece.png
+description: "Greek cuisine is a Mediterranean cuisine. Contemporary Greek cookery makes wide use of vegetables, olive oil, grains, fish, wine, and meat. Other important ingredients include olives, pasta, cheese, lemon juice, herbs, bread, and yogurt. Here's what you must try..."
 ---
 
 Wow! I love blogging so much already.

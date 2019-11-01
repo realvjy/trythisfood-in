@@ -2,6 +2,7 @@
 title: New York
 date: "2019-10-16"
 image: ./new-york.png
+description: "All of the dollar slices, bodega delicacies, and Michelin-starred kitchens that define New York's legendary culinary scene. Here's what you must try..."
 ---
 
 Wow! I love blogging so much already.

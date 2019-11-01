@@ -2,6 +2,7 @@
 title: Italy
 date: "2019-10-08"
 image: ./italy.png
+description: "Gorgeous Italy draws travelers keen on exploring her stunning scenery, unique culture, and gastronomical delights. With its rich cuisine, this beautiful Mediterranean land offers countless famous and traditional must-eat foods. Here's what you must try..."
 ---
 
 Wow! I love blogging so much already.

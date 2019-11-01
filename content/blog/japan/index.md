@@ -2,7 +2,7 @@
 title: Japan
 date: "2019-10-02"
 image: ./japan.png
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: The Japanese cuisine offers many delights with a mixed variety of regional and seasonal dishes. The regional and traditional foods of Japan have developed through centuries of political, economic, and social changes. Here's what you must try...
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and
