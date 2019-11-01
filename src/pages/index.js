@@ -27,13 +27,13 @@ class BlogIndex extends React.Component {
               const title = node.frontmatter.title || node.fields.slug
               return (
                 <article key={node.fields.slug} className="country-wrap">
-                  <a href="/" className="country-box">
+                  <a href={node.fields.slug} className="country-box">
                   <img src={node.frontmatter.image.childImageSharp.fluid.src} className="country-img"/>
                     <header className="country-txt">
                       <div className="txt-wrap">
                         <h4>try this food in</h4>
                         <h2>{title}</h2>
-                        <h6 className="food-count">14 foods</h6>
+                        <h6 className="food-count">View list</h6>
                       </div>
                     </header>
                   </a>
