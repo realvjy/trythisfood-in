@@ -85,12 +85,14 @@ $widescreen: 71.25rem; // 1140px
     line-height: 1.5;
     margin: 20px auto;
     @media (max-width: $mobile-landscape){
-          font-size: 24px;
+          font-size: 20px;
           padding: 24px;
           margin: 0 auto;
       }
   }
   .brand{
+    display: block;
+    line-height: 0;
     img{
       height: 70px;
       @media (max-width: $mobile-landscape){
@@ -282,6 +284,9 @@ footer{
   margin-bottom: 60px;
   .list_country_wrap{
     position: relative;
+    @media (max-width: $tablet-wide){
+
+    }
     .list_country_img{
       height: 500px;
       display: block;
@@ -291,6 +296,9 @@ footer{
         width: 100%;
         border-radius: 30px;
         object-position: top;
+        @media (max-width: $desktop){
+            border-radius: 0;
+        }
       }
     }
     .list_country_txt{
@@ -303,18 +311,27 @@ footer{
       width: 100%;
       vertical-align: bottom;
       display: flex;
+      @media (max-width: $desktop){
+          border-radius: 0;
+      }
       .summary_txt{
         align-self: flex-end;
         align-content: center;
         text-align: center;
         width: 100%;
         padding-bottom: 20px;
+        @media (max-width: $tablet-wide){
+            padding: 18px;
+        }
         h1{
           font-size: 56px;
           color: $white;
           font-weight: 600;
           text-transform: uppercase;
           margin-bottom: 20px;
+          @media (max-width: $tablet-wide){
+              font-size: 44px;
+          }
         }
         p{
           color: $white;
@@ -324,6 +341,9 @@ footer{
           max-width: 800px;
           margin: 0 auto;
           margin-bottom: 20px;
+          @media (max-width: $tablet-wide){
+              font-size: 16px;
+          }
         }
       }
     }
@@ -331,19 +351,38 @@ footer{
 }
 
 .list_section{
+  @media (max-width: $tablet-wide){
+    // todo
+  }
   .article-wrap{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 32px 0;
     border-bottom: 1px solid rgba(0,0,0,0.1);
+    @media (max-width: $desktop){
+      padding: 44px 18px;
+    }
+    @media (max-width: $mobile-landscape){
+      display: block;
+      padding: 44px 18px;
+    }
     .img-box{
       max-height: 250px;
+      @media (max-width: $tablet-wide){
+      }
       img{
         height: 250px;
         width: 320px;
         border-radius: 24px;
         object-fit: cover;
+
+        @media (max-width: $tablet-wide){
+          width: 250px;
+        }
+        @media (max-width: $mobile-landscape){
+          width: 100%;
+        }
       }
     }
     .list-txt{
@@ -352,9 +391,20 @@ footer{
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      @media (max-width: $tablet-wide){
+        width: calc(100% - 250px);
+      }
+      @media (max-width: $mobile-landscape){
+        width: 100%;
+      }
+
       .txt-desc{
         padding-left: 24px;
         flex-grow: 0;
+        @media (max-width: $mobile-landscape){
+          padding: 0;
+          margin-top: 24px;
+        }
         .food-type{
           margin-top: 10px;
           margin-bottom: 8px;
@@ -378,6 +428,9 @@ footer{
           color: $b-txt;
           font-weight: 300;
           margin-top: 18px;
+          @media (max-width: $mobile-landscape){
+            font-size: 14px;
+          }
         }
       }
       .tags{
@@ -385,10 +438,23 @@ footer{
         display: flex;
         align-items: flex-end;
         flex-grow: 1;
+        @media (max-width: $tablet-wide){
+          margin-top: 18px;
+        }
+        @media (max-width: $mobile-landscape){
+          padding: 0;
+          margin-top: 24px;
+        }
         span{
           font-size: 20px;
           font-weight: 300;
           color: $b-txt;
+          @media (max-width: $tablet-wide){
+            font-size: 18px;
+          }
+          @media (max-width: $mobile-landscape){
+            font-size: 16px;
+          }
           strong{
             font-weight: 400;
             color: $black;
@@ -407,23 +473,148 @@ footer{
   padding-top: 30px;
   padding-bottom: 30px;
   justify-content: space-between;
+  @media (max-width: $tablet-wide){
+      flex-direction: column;
+      text-align: center;
+  }
   .brand-nav{
     display: flex;
     align-items: center;
+    @media (max-width: $tablet-wide){
+        text-align: center;
+        flex-flow: column;
+    }
+    @media (max-width: $desktop){
+        padding: 18px;
+    }
     .brand{
       display: block;
       line-height: 0;
+      margin-right: 18px;
       .logo{
         height: 32px;
       }
+      @media (max-width: $tablet-wide){
+          text-align: center;
+          display: block;
+          width: 100%;
+          margin-bottom: 18px;
+      }
     }
-    .dropdown{
-      margin-left: 16px;
-      border: 1px solid $black;
-      padding: 8px 12px;
+  }
+  .tweet{
+    align-items: center;
+    a{
+      display: block;
+      color: $black;
+      text-decoration: none;
+      vertical-align: middle;
+      font-size: 18px;
+      padding: 18px;
       line-height: 24px;
-      font-size: 24px;
-      border-radius:20px;
+      border-radius: 30px;
+      &:hover{
+        background: rgba(0,0,0,0.03);
+      }
+      img{
+        vertical-align: middle;
+      }
+    }
+    @media (max-width: $tablet-wide){
+        width: 100%;
+        margin-top: 24px;
+    }
+  }
+}
+
+
+.country-links{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  z-index: 8;
+
+  .d_button{
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 12px 26px;
+    display: inline-block;
+    transition: all ease 0.2s;
+    border-radius: 24px;
+    border: 1px solid $black;
+    color: $black;
+    z-index: 11;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+  }
+  .d-arrow{
+    img{
+      -webkit-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+      -moz-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+      -ms-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+      -o-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+      transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+    }
+  }
+  .d-list{
+    z-index: 9;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: auto;
+    position: absolute;
+    background: #fff;
+    border: 1px solid rgba(0,0,0, 0.05);
+    border-radius: 24px;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-box-shadow: 0 8px 44px -2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 8px 44px -2px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 44px -2px rgba(0,0,0,0.1);
+    -webkit-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+    -moz-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+    -ms-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+    -o-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+    transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+    padding: 6px 0;
+    min-width: 100%;
+    >li{
+      a{
+        font-size: 18px;
+        font-weight: 500;
+        display: block;
+        margin: 0 20px;
+        padding: 12px 0;
+        text-decoration: none;
+        vertical-align: middle;
+        color: $light-grey;
+        width: max-content;
+        &:hover{
+          text-decoration: underline;
+          color: $black;
+        }
+      }
+      &:last-child{
+        a{
+          border: none;
+        }
+      }
+    }
+  }
+  &:hover{
+    .d-list{
+      overflow: visible;
+      opacity: 1;
+      top: calc(100%);
+      height: auto;
+    }
+    .d-arrow{
+      img{
+        transform: scale(-1, -1);
+      }
     }
   }
 }

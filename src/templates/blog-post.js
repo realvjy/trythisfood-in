@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { useStaticQuery, Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -9,7 +9,7 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-
+    const c_list = this.props.data.allMarkdownRemark.edges
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -21,12 +21,22 @@ class BlogPostTemplate extends React.Component {
             <Link to={`/`} className="brand">
               <img src="/logo.svg" className="logo" />
             </Link>
-            <div className="dropdown">
-              <h4>{post.frontmatter.title} <img src="/down-arrow.svg" /></h4>
-            </div>
+
+            <div className="country-links">
+                <button className="d_button">
+                    {post.frontmatter.title} <span className="d-arrow"><img src="/down-arrow.svg"/></span>
+                </button>
+                <ul className="d-list">
+                  {c_list.map(({ node }) => {
+                    return(
+                      <li key={node.fields.slug}><a href={node.fields.slug}>{node.frontmatter.title}</a></li>
+                    )
+                  })}
+                </ul>
+              </div>
           </div>
           <div className="tweet">
-            tweet this
+            <a href="https://twitter.com/intent/tweet?url=trythisfood.co&text=Love%20travelling%20https%3A%2F%2Ftrythisfood.in%20by%20%40realvjy%20%40_aakarshna">Share on twitter <img src="/twitter.svg"/></a>
           </div>
         </nav>
         <section className="list_hero">
@@ -67,6 +77,19 @@ export const pageQuery = graphql`
         author
       }
     }
+    allMarkdownRemark {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(format: HTML)

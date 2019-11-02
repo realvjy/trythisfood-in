@@ -12,10 +12,10 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="Must try these food when traveling" />
         <nav className="container">
           <header className="hero-nav">
-            <p>Are you travling somewhere. You should check these list and must</p>
+            <p>Are you the one who looks for dream food when traveling?</p>
             <Link to={`/`} className="brand">
               <img src="/logo.svg" className="logo" />
             </Link>
