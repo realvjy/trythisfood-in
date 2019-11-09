@@ -13,7 +13,7 @@ description: The Japanese cuisine offers many delights with a mixed variety of r
       <div class="txt-desc">
         <h2>Sushi</h2>
         <div class="food-type">
-          <span class="veg"><span class="n-veg"><img src="/food-icon.svg" /> NON-VEG</span><span class="veg"><span class="n-veg"><img src="/food-icon.svg" /> Seafood</span>
+          <span class="veg"><span class="n-veg"><img src="/non-veg.svg" /> NON-VEG</span><span class="veg"><span class="seafood"><img src="/seafood.svg" /> Seafood</span>
         </div>
         <p>Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits.</p>
       </div>
@@ -32,7 +32,7 @@ description: The Japanese cuisine offers many delights with a mixed variety of r
       <div class="txt-desc">
         <h2>Yakitori</h2>
         <div class="food-type">
-          <span class="veg"><img src="/food-icon.svg" /> NON-VEG</span>
+          <span class="n-veg"><img src="/non-veg.svg" /> NON-VEG</span>
         </div>
         <p>Yakitori is grilled chicken skewers made from bite-sized pieces of meat from all different parts of the chicken, such as the breasts, thighs, skin, liver and other innards. Usually made to order and cooked over charcoal, yakitori is a popular, inexpensive dish commonly enjoyed together with a glass of beer.</p>
       </div>
@@ -51,7 +51,7 @@ description: The Japanese cuisine offers many delights with a mixed variety of r
       <div class="txt-desc">
         <h2>Udon</h2>
         <div class="food-type">
-          <span class="veg"><img src="/food-icon.svg" /> NON-VEG</span><span class="veg"><img src="/food-icon.svg" /> Egg</span>
+          <span class="n-veg"><img src="/non-veg.svg" /> NON-VEG</span><span class="egg"><img src="/egg.svg" /> Egg</span>
         </div>
         <p>Udon is a dense and chewy noodle that is made from wheat flour. It is one of the most popular foods in Japan due to its delicious taste, inexpensive price point, and versatility — udon can be eaten hot or cold and customized with any number of toppings.
 </p>
@@ -71,7 +71,7 @@ description: The Japanese cuisine offers many delights with a mixed variety of r
       <div class="txt-desc">
         <h2>Sashimi</h2>
         <div class="food-type">
-          <span class="veg"><img src="/food-icon.svg" />Seafood</span>
+          <span class="seafood"><img src="/seafood.svg" /> Seafood</span>
         </div>
         <p>Centuries before Japanese people were eating sushi, they first enjoyed raw fish without the rice. While the name “sashimi” refers to any thinly sliced raw food, including raw beef (gyuu-sashi), chicken (tori-zashi), and even horse (basashi), fish and seafood are the most popular varieties.</p>
       </div>
@@ -90,7 +90,7 @@ description: The Japanese cuisine offers many delights with a mixed variety of r
       <div class="txt-desc">
         <h2>Soba</h2>
         <div class="food-type">
-          <span class="veg"><img src="/food-icon.svg" />VEG</span><span class="veg"><img src="/food-icon.svg" />Non-Veg</span><img src="/food-icon.svg" />Egg</span>
+          <span class="veg"><img src="/veg.svg" /> VEG</span><span class="n-veg"><img src="/non-veg.svg" /> Non-Veg</span><span class="egg"><img src="/egg.svg" /> Egg</span>
         </div>
         <p>Soba is another type of noodle dish that has been eaten in Japan for centuries. Made from buckwheat flour, soba has a long thin shape and firm texture and is very healthy.</p>
       </div>

@@ -54,7 +54,7 @@ $white: #ffffff;
 $grey: #F1EDE9;
 $blue: #A2FBF4;
 $light-grey: #353639;
-$b-txt: #717171;
+$b-txt: #464646;
 // Breakpoints
 $mobile-landscape: 30rem; // 480px
 $tablet: 40rem; // 640px
@@ -288,11 +288,11 @@ footer{
 
     }
     .list_country_img{
-      height: 500px;
+      height: 550px;
       display: block;
       .country-img{
         object-fit: cover;
-        height: 500px;
+        height: 550px;
         width: 100%;
         border-radius: 30px;
         object-position: top;
@@ -302,7 +302,7 @@ footer{
       }
     }
     .list_country_txt{
-      height: 500px;
+      height: 550px;
       background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0.9));
       border-radius: 30px;
       position: absolute;
@@ -396,6 +396,7 @@ footer{
       }
       @media (max-width: $mobile-landscape){
         width: 100%;
+        min-height: auto;
       }
 
       .txt-desc{
@@ -406,16 +407,38 @@ footer{
           margin-top: 24px;
         }
         .food-type{
-          margin-top: 10px;
+          margin-top: 14px;
           margin-bottom: 8px;
+          img{
+            height: 16px;
+            width: 16px;
+            vertical-align: middle;
+            margin-top: -2px;
+          }
           span{
-            margin-right: 8px;
+            font-size: 16px;
+            font-weight: 400;
+            margin-right: 16px;
           }
           .n-veg{
-            color: #D86D6D;
+            color: #F47979;
+            text-transform: uppercase;
+            letter-spacing: 1px;
           }
           .veg{
             color: #51A044;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+          }
+          .seafood{
+            color: #F0874C;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+          }
+          .egg{
+            color: #FFC369;
+            text-transform: uppercase;
+            letter-spacing: 1px;
           }
         }
         h2{
@@ -423,11 +446,11 @@ footer{
           font-weight: 600;
         }
         p{
-          font-size: 16px;
+          font-size: 17px;
           line-height: 160%;
           color: $b-txt;
           font-weight: 300;
-          margin-top: 18px;
+          margin-top: 12px;
           @media (max-width: $mobile-landscape){
             font-size: 14px;
           }
@@ -446,7 +469,7 @@ footer{
           margin-top: 24px;
         }
         span{
-          font-size: 20px;
+          font-size: 18px;
           font-weight: 300;
           color: $b-txt;
           @media (max-width: $tablet-wide){

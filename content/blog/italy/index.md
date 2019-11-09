@@ -13,7 +13,7 @@ description: "Gorgeous Italy draws travelers keen on exploring her stunning scen
     <div class="txt-desc">
       <h2>Pasta & Pizza</h2>
       <div class="food-type">
-        <span class="veg"><img src="/food-icon.svg" /> NonVEG</span><span class="sea"><img src="/food-icon.svg" /> Seafood</span>
+        <span class="veg"><img src="/veg.svg" /> VEG</span><span class="seafood"><img src="/seafood.svg" /> Seafood</span>
       </div>
       <p>One should not miss out on feasting on pasta and pizza, the two iconic traditional Italian dishes during their vacation. Pasta types vary significantly depending on where you go in Italy. Be sure to try the regional specialties in the cities that you are visiting. If you are exploring beautiful Rome, order a serving of the pasta alla carbonara, prepared with ingredients such as eggs, Pecorino cheese, guanciale (a type of Italian cured meat made from pork cheeks) and black pepper.</p>
     </div>
@@ -51,7 +51,7 @@ description: "Gorgeous Italy draws travelers keen on exploring her stunning scen
     <div class="txt-desc">
       <h2>Lasagne</h2>
       <div class="food-type">
-        <span class="veg"><img src="/food-icon.svg" /> VEG</span><span class="veg"><img src="/food-icon.svg" /> Non-VEG</span>
+        <span class="veg"><img src="/veg.svg" /> VEG</span><span class="n-veg"><img src="/non-veg.svg" /> Non-VEG</span>
       </div>
       <p>Believed to have originated from the city of Naples, this well-loved and yet another classic Italian dish is made by baking sheets of lasagne pasta layered with cheese, ground meat, vegetables and different varieties of sauces, such as the ragù, bechamel or tomato sauce.</p>
     </div>
@@ -70,7 +70,7 @@ description: "Gorgeous Italy draws travelers keen on exploring her stunning scen
     <div class="txt-desc">
       <h2>Osso buco alla Milanese</h2>
       <div class="food-type">
-        <span class="n-veg"><img src="/food-icon.svg" /> No-Veg</span>
+        <span class="n-veg"><img src="/non-veg.svg" /> No-Veg</span>
       </div>
       <p>Meat lovers will rejoice at the thought of tucking into the osso buco alla Milanese! Tender veal shanks, braised slowly in white wine, is served with an array of vegetables. A serving of aromatic gremolata, a condiment made with lemon zest, garlic and parsley, is added to complete the dish.</p>
     </div>
