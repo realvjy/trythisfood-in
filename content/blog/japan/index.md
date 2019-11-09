@@ -4,106 +4,98 @@ date: "2019-10-02"
 image: ./japan.png
 description: The Japanese cuisine offers many delights with a mixed variety of regional and seasonal dishes. The regional and traditional foods of Japan have developed through centuries of political, economic, and social changes. Here's what you must try...
 ---
+<!-- Sushi  -->
+  <article class="article-wrap">
+    <div class="img-box">
+      <img src="/naan.png" class="country-img"/>
+    </div>
+    <div class="list-txt">
+      <div class="txt-desc">
+        <h2>Sushi</h2>
+        <div class="food-type">
+          <span class="veg"><span class="n-veg"><img src="/food-icon.svg" /> NON-VEG</span><span class="veg"><span class="n-veg"><img src="/food-icon.svg" /> Seafood</span>
+        </div>
+        <p>Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits.</p>
+      </div>
+      <div class="tags">
+        <span>Can eat in <strong>Lunch · Dinner</strong></span>
+      </div>
+    </div>
+  </article>
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+  <!-- Yakitori -->
+  <article class="article-wrap">
+    <div class="img-box">
+      <img src="/naan.png" class="country-img"/>
+    </div>
+    <div class="list-txt">
+      <div class="txt-desc">
+        <h2>Yakitori</h2>
+        <div class="food-type">
+          <span class="veg"><img src="/food-icon.svg" /> NON-VEG</span>
+        </div>
+        <p>Yakitori is grilled chicken skewers made from bite-sized pieces of meat from all different parts of the chicken, such as the breasts, thighs, skin, liver and other innards. Usually made to order and cooked over charcoal, yakitori is a popular, inexpensive dish commonly enjoyed together with a glass of beer.</p>
+      </div>
+      <div class="tags">
+        <span>Can eat in <strong>Lunch · Dinner</strong></span>
+      </div>
+    </div>
+  </article>
 
-## On deer horse aboard tritely yikes and much
+  <!-- Udon -->
+  <article class="article-wrap">
+    <div class="img-box">
+      <img src="/naan.png" class="country-img"/>
+    </div>
+    <div class="list-txt">
+      <div class="txt-desc">
+        <h2>Udon</h2>
+        <div class="food-type">
+          <span class="veg"><img src="/food-icon.svg" /> NON-VEG</span><span class="veg"><img src="/food-icon.svg" /> Egg</span>
+        </div>
+        <p>Udon is a dense and chewy noodle that is made from wheat flour. It is one of the most popular foods in Japan due to its delicious taste, inexpensive price point, and versatility — udon can be eaten hot or cold and customized with any number of toppings.
+</p>
+      </div>
+      <div class="tags">
+        <span>Can eat in <strong>Lunch · Dinner</strong></span>
+      </div>
+    </div>
+  </article>
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+  <!-- Sashimi -->
+  <article class="article-wrap">
+    <div class="img-box">
+      <img src="/naan.png" class="country-img"/>
+    </div>
+    <div class="list-txt">
+      <div class="txt-desc">
+        <h2>Sashimi</h2>
+        <div class="food-type">
+          <span class="veg"><img src="/food-icon.svg" />Seafood</span>
+        </div>
+        <p>Centuries before Japanese people were eating sushi, they first enjoyed raw fish without the rice. While the name “sashimi” refers to any thinly sliced raw food, including raw beef (gyuu-sashi), chicken (tori-zashi), and even horse (basashi), fish and seafood are the most popular varieties.</p>
+      </div>
+      <div class="tags">
+        <span>Can eat in <strong>Lunch · Dinner</strong></span>
+      </div>
+    </div>
+  </article>
 
-- This however showed weasel
-- Well uncritical so misled
-  - this is very interesting
-- Goodness much until that fluid owl
-
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
-
-### Overlaid the jeepers uselessly much excluding
-
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-[Longe and Parole](http://google.com) and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.
-
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
-
-It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.
-
-### According a funnily until pre-set or arrogant well cheerful
-
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
-
-1.  So baboon this
-2.  Mounted militant weasel gregariously admonishingly straightly hey
-3.  Dear foresaw hungry and much some overhung
-4.  Rash opossum less because less some amid besides yikes jeepers frenetic
-    impassive fruitlessly shut
-
-When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rhetoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.
-
-> The copy warned the Little Blind Text, that where it came from it would have
-> been rewritten a thousand times and everything that was left from its origin
-> would be the word "and" and the Little Blind Text should turn around and
-> return to its own, safe country.
-
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.
-
-#### Silent delightfully including because before one up barring chameleon
-
-Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.
-
-Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
-
-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along
-
-She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rhetoric question ran over her cheek, then she continued her way. On her way she
-met a copy.
-
-###### Slapped cozy a that lightheartedly and far
-
-The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word "and" and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.
+  <!-- Soba -->
+  <article class="article-wrap">
+    <div class="img-box">
+      <img src="/naan.png" class="country-img"/>
+    </div>
+    <div class="list-txt">
+      <div class="txt-desc">
+        <h2>Soba</h2>
+        <div class="food-type">
+          <span class="veg"><img src="/food-icon.svg" />VEG</span><span class="veg"><img src="/food-icon.svg" />Non-Veg</span><img src="/food-icon.svg" />Egg</span>
+        </div>
+        <p>Soba is another type of noodle dish that has been eaten in Japan for centuries. Made from buckwheat flour, soba has a long thin shape and firm texture and is very healthy.</p>
+      </div>
+      <div class="tags">
+        <span>Can eat in <strong>Lunch · Dinner</strong></span>
+      </div>
+    </div>
+  </article>
