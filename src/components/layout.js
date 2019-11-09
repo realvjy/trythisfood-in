@@ -26,7 +26,7 @@ class Layout extends React.Component {
           <div className="about">
             <div className="logo"><a href="">  <img src="/logo.svg" className="logo" /></a></div>
             <div className="menu">
-              <a href="">About</a> • <a href="">Help us</a>
+              <a href="/about">About</a> • <a href="">Help us</a>
             </div>
           </div>
           <div className="credit">

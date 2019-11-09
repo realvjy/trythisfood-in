@@ -641,3 +641,106 @@ footer{
     }
   }
 }
+
+.about_section{
+  @media (max-width: $mobile-landscape){
+  }
+  .brand{
+    display: block;
+    padding: 0 18px;
+  }
+  .logo{
+    height: 70px;
+    margin-bottom: 60px;
+    @media (max-width: $mobile-landscape){
+      width: 100%;
+      height: auto;
+      margin-top: 24px;
+    }
+  }
+  .about_box{
+    margin: 50px 100px;
+    @media (max-width: $mobile-landscape){
+      margin: 0;
+    }
+    .desc{
+      padding: 0 18px;
+    }
+    h1{
+      font-size: 36px;
+    }
+
+    p{
+      margin-top: 20px;
+      font-size: 20px;
+      line-height: 180%;
+      color: $b-txt;
+    }
+
+    h3{
+      font-size: 22px;
+      margin-top: 24px;
+    }
+  }
+
+  .maker-credit{
+    margin-top: 60px;
+    h1{
+      padding: 10px 18px;
+      line-height: 150%;
+    }
+      .maker-list{
+        display: flex;
+        @media (max-width: $mobile-landscape){
+          display: block;
+          padding: 18px;
+        }
+        .maker-wrap{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          flex-direction: column;
+          width: 50%;
+          padding: 18px;
+          @media (max-width: $mobile-landscape){
+            width: 100%;
+            display: block;
+            justify-content: flex-end;
+            padding: 0;
+            margin-bottom: 24px;
+          }
+          .maker{
+            border: 1px solid rgba(0,0,0,0.1);
+            padding: 18px;
+            border-radius: 32px;
+
+          }
+          .image{
+            img{
+              height: 120px;
+              width: 120px;
+              border-radius: 50%;
+              border: 1px solid rgba(0,0,0,0.3);
+            }
+          }
+          .txt{
+            h3{
+              font-size: 26px;
+              a{
+                text-decoration: none;
+                color: $black;
+                &:hover{
+                  text-decoration: underline;
+                }
+              }
+            }
+            p{
+              font-weight: 300;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+
+  }
+}
