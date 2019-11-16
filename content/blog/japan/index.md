@@ -2,6 +2,7 @@
 title: Japan
 date: "2019-10-02"
 image: ./japan.png
+cover_image: ./japan_cover.png
 description: The Japanese cuisine offers many delights with a mixed variety of regional and seasonal dishes. The regional and traditional foods of Japan have developed through centuries of political, economic, and social changes. Here's what you must try...
 ---
 <!-- Sushi  -->

@@ -2,6 +2,7 @@
 title: Turkey
 date: "2019-10-09"
 image: ./turkey.png
+cover_image: ./turkey_cover.png
 description: "Vietnamese food is known to be both healthy and robust in flavour, thanks its generous combination of fresh herbs and greens, paired with rice, noodles, seafood, pork and beef. Here's what you must try..."
 ---
 <!-- Turkish Delight  -->

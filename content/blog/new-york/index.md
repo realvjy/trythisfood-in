@@ -2,6 +2,7 @@
 title: New York
 date: "2019-10-16"
 image: ./new-york.png
+cover_image: ./new-york_cover.png
 description: "All of the dollar slices, bodega delicacies, and Michelin-starred kitchens that define New York's legendary culinary scene. Here's what you must try..."
 ---
 <!-- Bagels -->

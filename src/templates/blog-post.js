@@ -43,7 +43,7 @@ class BlogPostTemplate extends React.Component {
           <div className="container">
           <div className="list_country_wrap">
             <div className="list_country_img">
-              <img src={post.frontmatter.image.childImageSharp.fluid.src} className="country-img"/>
+              <img src={post.frontmatter.cover_image.childImageSharp.fluid.src} className="country-img"/>
             </div>
             <div className="list_country_txt">
               <div className="summary_txt">
@@ -102,6 +102,13 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         image{
+          childImageSharp {
+            fluid {
+              src
+            }
+          }
+        }
+        cover_image{
           childImageSharp {
             fluid {
               src

@@ -2,6 +2,7 @@
 title: Spain
 date: "2019-10-12"
 image: ./spain.png
+cover_image: ./spain_cover.png
 description: "Spanish cuisine is heavily influenced by historical processes that shaped local culture and society in some of Europe's Iberian Peninsula territories. Geography and climate had a great influence on cooking methods and available ingredients. Here's what you must try..."
 ---
 <!-- Tapas -->
