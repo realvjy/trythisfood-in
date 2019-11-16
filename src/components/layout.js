@@ -30,7 +30,7 @@ class Layout extends React.Component {
             </div>
           </div>
           <div className="credit">
-            <div className="maker">Makers</div> <div className="make-list"><a href="https://twitter.com/realvjy">vijay verma</a> & <a href="https://twitter.com/_aakarshna">Aakarshna</a></div>
+            <div className="maker">Made with ♥ by </div> <div className="make-list"><a href="https://twitter.com/realvjy">vijay verma</a> & <a href="https://twitter.com/_aakarshna">Aakarshna</a></div>
           </div>
         </footer>
       </div>

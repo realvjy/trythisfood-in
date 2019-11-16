@@ -7,7 +7,7 @@ description: The Japanese cuisine offers many delights with a mixed variety of r
 <!-- Sushi  -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/sushi.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -26,7 +26,7 @@ description: The Japanese cuisine offers many delights with a mixed variety of r
   <!-- Yakitori -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/yakitori.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -45,7 +45,7 @@ description: The Japanese cuisine offers many delights with a mixed variety of r
   <!-- Udon -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/udon.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -65,7 +65,7 @@ description: The Japanese cuisine offers many delights with a mixed variety of r
   <!-- Sashimi -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/sashimi.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -84,7 +84,7 @@ description: The Japanese cuisine offers many delights with a mixed variety of r
   <!-- Soba -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/soba.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">

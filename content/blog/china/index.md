@@ -7,7 +7,7 @@ description: "Chinese cuisine is an important part of the Chinese culture, which
 <!-- Sweet and Sour Pork  -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/sweet-and-sour-pork.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -26,7 +26,7 @@ description: "Chinese cuisine is an important part of the Chinese culture, which
   <!-- Ma Po Tofu -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/mapo-tofu.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -45,7 +45,7 @@ description: "Chinese cuisine is an important part of the Chinese culture, which
   <!-- Peking Roasted Duck -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/peking-roasted-duck.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -64,7 +64,7 @@ description: "Chinese cuisine is an important part of the Chinese culture, which
   <!-- Dumplings -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/dumpling.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -83,7 +83,7 @@ description: "Chinese cuisine is an important part of the Chinese culture, which
   <!-- Wontons -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/wonton.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">

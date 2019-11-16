@@ -12,7 +12,7 @@ tags:
 <!-- Biryani -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/biryani.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -31,7 +31,7 @@ tags:
   <!-- Dosa -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/dosa.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -47,10 +47,10 @@ tags:
     </div>
   </article>
 
-  <!-- Dosa -->
+  <!-- Chaat -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/chaat.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -69,7 +69,7 @@ tags:
   <!-- Butter Chicken -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/butter-chicken.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -88,7 +88,7 @@ tags:
   <!-- Kulhad Chai -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/kulhad-chai.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -107,7 +107,7 @@ tags:
   <!-- Rogan Josh -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/rogan-josh.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -126,7 +126,7 @@ tags:
   <!-- Samosa -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/samosa.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -145,7 +145,7 @@ tags:
   <!-- Gaajar ka Halwa -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/gajar-ka-halwa.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -164,7 +164,7 @@ tags:
   <!-- Kheer -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/kheer.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
