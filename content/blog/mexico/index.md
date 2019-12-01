@@ -8,7 +8,7 @@ description: "Mexican food has some of the most well-known and loved dishes in t
 <!-- Chilaquiles -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/chilaquiles.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -27,7 +27,7 @@ description: "Mexican food has some of the most well-known and loved dishes in t
   <!-- Tostadas -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/tostadas.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -46,7 +46,7 @@ description: "Mexican food has some of the most well-known and loved dishes in t
   <!-- Elote -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/elote.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -65,7 +65,7 @@ description: "Mexican food has some of the most well-known and loved dishes in t
   <!-- Enchiladas -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/enchiladas.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">
@@ -84,7 +84,7 @@ description: "Mexican food has some of the most well-known and loved dishes in t
   <!-- Guacamole -->
   <article class="article-wrap">
     <div class="img-box">
-      <img src="/naan.png" class="country-img"/>
+      <img src="/guacamole.png" class="country-img"/>
     </div>
     <div class="list-txt">
       <div class="txt-desc">

@@ -22,17 +22,6 @@ class Layout extends React.Component {
       <div>
         <header>{header}</header>
         <main>{children}</main>
-        <footer className="container">
-          <div className="about">
-            <div className="logo"><a href="">  <img src="/logo.svg" className="logo" /></a></div>
-            <div className="menu">
-              <a href="/about">About</a> • <a href="">Help us</a>
-            </div>
-          </div>
-          <div className="credit">
-            <div className="maker">Made with ♥ by </div> <div className="make-list"><a href="https://twitter.com/realvjy">vijay verma</a> & <a href="https://twitter.com/_aakarshna">Aakarshna</a></div>
-          </div>
-        </footer>
       </div>
     )
   }

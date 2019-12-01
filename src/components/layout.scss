@@ -81,7 +81,7 @@ $widescreen: 71.25rem; // 1140px
   p{
     font-size: 30px;
     font-weight: 300;
-    max-width: 600px;
+    max-width: 700px;
     line-height: 1.5;
     margin: 20px auto;
     @media (max-width: $mobile-landscape){
@@ -742,5 +742,13 @@ footer{
         }
       }
 
+  }
+}
+
+
+.soon{
+  text-align: center;
+  h1{
+    font-size: 34px;
   }
 }
