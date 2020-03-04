@@ -3,6 +3,7 @@ import { useStaticQuery, Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Footer from "../components/footer"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -62,6 +63,7 @@ class BlogPostTemplate extends React.Component {
           <div dangerouslySetInnerHTML={{ __html: post.excerpt }} className="container">
           </div>
         </section>
+        <Footer />
       </Layout>
     )
   }

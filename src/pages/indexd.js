@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Footer from "../components/footer"
 
 class BlogIndex extends React.Component {
   render() {
@@ -42,6 +43,7 @@ class BlogIndex extends React.Component {
             })}
           </div>
         </section>
+        <Footer/>
       </Layout>
     )
   }
